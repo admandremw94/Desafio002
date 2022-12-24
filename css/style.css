@@ -1,6 +1,6 @@
 ul {
 	display: grid;
-	grid-template-columns:3, 1fr;
+	grid-template-columns:1fr 1fr 1fr;
 	width: 940px;
 	height: auto;
 	border-radius: 20px;
