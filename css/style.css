@@ -1,0 +1,128 @@
+ul {
+	display: grid;
+	grid-template-columns:3, 1fr;
+	width: 940px;
+	height: auto;
+	border-radius: 20px;
+	margin: 0 auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.retangulo1 {
+	background-color: #e28525;
+	color: #FFFFFF;
+}
+
+.retangulo2 {
+	background-color: #016972;
+	color: #FFFFFF;
+}
+
+.retangulo3 {
+	background-color: #00403f;
+	color: #FFFFFF;
+}
+
+.icone {
+	float: left;
+	padding: 40px 0 20px 40px;
+}
+
+
+h1 {
+	font-family: 'Big Shoulders Display', cursive;
+	font-size: 30px;
+	letter-spacing: .2rem;
+	opacity: 0.8;
+}
+
+p {
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 15px;
+	letter-spacing: .2rem;
+	line-height: 25px;
+	opacity: 0.8;
+}
+
+.titulo {
+	padding: 130px 20px 10px 40px;
+	border-radius: 20px;
+}
+
+.texto {
+	padding: 10px 20px 10px 40px;
+	opacity: 0.8;
+}
+
+.botao1 {
+	background-color: #e28525;
+	border: 2px solid #FFFFFF;
+	color: #FFFFFF;
+	padding: 15px 30px;
+	border-radius: 20px;
+	margin: 20px 40px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.botao2 {
+	background-color: #016972;
+	border: 2px solid #FFFFFF;
+	color: #FFFFFF;
+	padding: 15px 30px;
+	border-radius: 20px;
+	margin: 20px 40px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.botao3 {
+	background-color: #00403f;
+	border: 2px solid #FFFFFF;
+	color: #FFFFFF;
+	padding: 15px 30px;
+	border-radius: 20px;
+	margin: 20px 40px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.botao1:hover {
+	background-color: #FFFFFF;
+	color: #e28525;
+	transform: scale(1.2);
+}
+
+.botao2:hover {
+	background-color: #FFFFFF;
+	color: #016972;
+	transform: scale(1.2);
+}
+
+.botao3:hover {
+	background-color: #FFFFFF;
+	color: #00403f;
+	transform: scale(1.2);
+}
+
+@media only screen and (max-width: 480px) {
+
+	main {
+		height: 1400px;
+	}
+
+	ul {
+		display: block;
+		width: 80%;
+		height: auto;
+		position: relative;
+		top: 50%;
+		left: 40%;
+		right: 50%;
+		transform: translate(-50%, -50%);
+	}
